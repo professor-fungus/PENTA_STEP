@@ -1,0 +1,2 @@
+Dual MOSFET footprint info:
+https://assets.nexperia.com/documents/outline-drawing/SOT1205.pdf
