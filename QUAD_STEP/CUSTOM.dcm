@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUK9K45-100E,115
+D Mosfet Array 2 N-Channel (Dual) 100V 21A 53W Surface Mount LFPAK56D
+K Dual N-Channel MOSFET Logic Level
+F https://assets.nexperia.com/documents/data-sheet/BUK9K45-100E.pdf
+$ENDCMP
+#
+#End Doc Library

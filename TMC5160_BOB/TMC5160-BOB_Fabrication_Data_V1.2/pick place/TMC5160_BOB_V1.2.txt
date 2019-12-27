@@ -1,0 +1,59 @@
+Altium Designer Pick and Place Locations
+C:\Users\Kasutaja\Desktop\SYSTEEM\MEGA\PCB_PROJECTS\Trinamic\4BreakoutBoards\TMC5160\V1.2\Outputs\FABRICATION\Pick Place\TMC5160_BOB_V1.2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       31.08.17
+Time:       11:44
+Revision:   Not in VersionControl
+Variant:    TMC5160_RevA
+Units used: mil
+
+Designator Comment                            Layer    Footprint                          Center-X(mil) Center-Y(mil) Rotation Description                                                                                 
+R2         0R                                 TopLayer R0603                              -1178.333     -755.000      270      SMD Chip Resistor, Thick Film, 0 ohm, 0603 [1608 Metric], 100 mW, MCWR Series               
+P9         MAB                                TopLayer 4_PIN_THT_1mm_hole                 0.000         -350.000      180      Wire-To-Board Connector, 2.5 mm, 4 Contacts, Header, EH Series, Through Hole, 1 Rows        
+P4         SPI                                TopLayer 4_PIN_THT                          -1400.000     -350.000      180      Header, 4-Pin                                                                               
+P5         ENC                                TopLayer 3_PIN_THT                          0.000         -900.000      0        Header, 3-Pin                                                                               
+P1         AIN                                TopLayer 2_PIN_THT                          0.000         -650.000      0        Header, 2-Pin                                                                               
+P6         VM                                 TopLayer 2_PIN_THT                          0.000         -50.000       360      Header, 2-Pin                                                                               
+P3         MISC                               TopLayer 5_PIN_THT                          -1400.000     -800.000      0        Header, 5-Pin                                                                               
+P2         VCC_IO                             TopLayer 2_PIN_THT                          -1400.000     -50.000       0        Header, 2-Pin                                                                               
+C1         100nF                              TopLayer C0603                              -1225.000     -585.000      225      Ceramic capacitor                                                                           
+C2         2u2                                TopLayer C0603                              -957.000      -210.000      90       SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 2.2 µF, 25 V, ± 10%, X5R, GRM Series  
+C3         2u2                                TopLayer C0603                              -800.000      -270.000      180      SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 2.2 µF, 25 V, ± 10%, X5R, GRM Series  
+C4         470nF                              TopLayer C0603                              -1055.000     -755.000      270      Ceramic capacitor                                                                           
+C5         100nF                              TopLayer C0603                              -864.000      -772.000      90       Ceramic capacitor                                                                           
+C6         22nF                               TopLayer C0603                              -993.333      -760.000      270      Ceramic capacitor                                                                           
+C7         100nF                              TopLayer C0603                              -925.667      -772.000      270      Ceramic capacitor                                                                           
+C8         100nF                              TopLayer C0603                              -900.000      -210.000      90       Ceramic capacitor                                                                           
+C9         10uF/50V/10%                       TopLayer C1206                              -201.000      -118.000      180      SMD Multilayer Ceramic Capacitor, 1206 [3216 Metric], 10 µF, 50 V, ± 20%, X5R, GRM Series   
+C10        10uF/50V/10%                       TopLayer C1206                              -201.000      -28.000       180      SMD Multilayer Ceramic Capacitor, 1206 [3216 Metric], 10 µF, 50 V, ± 20%, X5R, GRM Series   
+C11        220nF                              TopLayer C0603                              -683.000      -553.000      270      SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.22 µF, 50 V, ± 10%, X7R, GCM Series 
+C12        220nF                              TopLayer C0603                              -795.055      -661.000      45       SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.22 µF, 50 V, ± 10%, X7R, GCM Series 
+C13        220nF                              TopLayer C0603                              -666.496      -330.000      360      SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.22 µF, 50 V, ± 10%, X7R, GCM Series 
+C14        220nF                              TopLayer C0603                              -683.000      -433.000      90       SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.22 µF, 50 V, ± 10%, X7R, GCM Series 
+C15        470nF/50V                          TopLayer C0603                              -235.465      -785.000      360      SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.47 µF, 50 V, ± 10%, X7R, C Series   
+C16        470nF/50V                          TopLayer C0603                              -270.000      -212.000      360      SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.47 µF, 50 V, ± 10%, X7R, C Series   
+IC1        TMC5160-TA                         TopLayer TMC5160_TSQFP50P900X900X120_HS-49L -970.416      -487.865      270                                                                                                  
+Q1         AO4882                             TopLayer SOP127P600X170-8L                  -401.030      -926.000      360      Mosfet Array 2 N-Channel (Dual) 40V 8A 2W Surface Mount 8-SOIC                              
+Q2         AO4882                             TopLayer SOP127P600X170-8L                  -701.030      -926.000      360      Mosfet Array 2 N-Channel (Dual) 40V 8A 2W Surface Mount 8-SOIC                              
+Q3         AO4882                             TopLayer SOP127P600X170-8L                  -436.030      -74.000       360      Mosfet Array 2 N-Channel (Dual) 40V 8A 2W Surface Mount 8-SOIC                              
+Q4         AO4882                             TopLayer SOP127P600X170-8L                  -736.030      -74.000       360      Mosfet Array 2 N-Channel (Dual) 40V 8A 2W Surface Mount 8-SOIC                              
+R17        2R2/1%/                            TopLayer R0603                              -1116.667     -755.000      90       Resistor                                                                                    
+R18        1k                                 TopLayer R0603                              -1160.000     -150.000      270      1 kohm, 50 V, 0603 [1608 Metric], 63 mW, ± 1%, MC Series                                    
+R3         22R / 100mW / 1%                   TopLayer R0603                              -367.965      -788.000      180      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R4         22R / 100mW / 1%                   TopLayer R0603                              -632.965      -788.000      360      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R5         22R / 100mW / 1%                   TopLayer R0603                              -533.333      -212.000      180      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R6         22R / 100mW / 1%                   TopLayer R0603                              -800.000      -215.000      360      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R7         47R /  / 1%                        TopLayer R0603                              -905.000      -876.000      180      SMD Chip Resistor, Ceramic, 47 ohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%, MCSR 06 Series  
+R8         47R /  / 1%                        TopLayer R0603                              -1035.000     -876.000      360      SMD Chip Resistor, Ceramic, 47 ohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%, MCSR 06 Series  
+R9         47R /  / 1%                        TopLayer R0603                              -940.000      -120.000      180      SMD Chip Resistor, Ceramic, 47 ohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%, MCSR 06 Series  
+R10        47R /  / 1%                        TopLayer R0603                              -1060.000     -120.000      360      SMD Chip Resistor, Ceramic, 47 ohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%, MCSR 06 Series  
+R11        0R05 / 1W / 1%                     TopLayer R1206                              -940.000      -976.000      180      SMD Current Sense Resistor, 0.05 ohm, 1 W, 1206 [3216 Metric], ± 1%, WSLP Series            
+R12        0R05 / 1W / 1%                     TopLayer R1206                              -975.000      -30.000       180      SMD Current Sense Resistor, 0.05 ohm, 1 W, 1206 [3216 Metric], ± 1%, WSLP Series            
+R13        22R / 100mW / 1%                   TopLayer R0603                              -500.465      -788.000      360      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R14        22R / 100mW / 1%                   TopLayer R0603                              -765.465      -788.000      180      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R15        22R / 100mW / 1%                   TopLayer R0603                              -400.000      -212.000      360      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+R16        22R / 100mW / 1%                   TopLayer R0603                              -666.667      -212.000      180      SMD Chip Resistor, Thick Film, 22 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series  
+D1         LED, Blue, SMD, 20mA, 2.8V, 465 nm TopLayer LED_0603                           -1160.000     -290.000      270      LED, Blue, SMD, 20mA, 2.8V, 465 nm                                                          

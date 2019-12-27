@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [TMC5160_RevA] of PCB Document [TMC5160_BOB_V1_2.PcbDoc]
+   Generated File[TMC5160_BOB_V1.2.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:44:15 On 31.08.2017

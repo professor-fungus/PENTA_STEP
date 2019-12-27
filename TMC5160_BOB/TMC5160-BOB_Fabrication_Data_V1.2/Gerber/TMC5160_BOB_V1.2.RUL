@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: C:\Users\Kasutaja\Desktop\SYSTEEM\MEGA\PCB_PROJECTS\Trinamic\4BreakoutBoards\TMC5160\V1.2\TMC5160_BOB_V1_2.PcbDoc
+RuleKind=Width|RuleName=VIN_Width|Scope=Board|Minimum=200.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Other_Width|Scope=Board|Minimum=8.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Mounting Hole Clearance|Scope=Board|Minimum=30.00
+RuleKind=Clearance|RuleName=Fiducial Clearance|Scope=Board|Minimum=26.00
+RuleKind=SolderMaskExpansion|RuleName=FiducialSolderMaskExpansion|Scope=Board|Minimum=26.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumViaAnnualRing|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=BoardOutlineClearance|Scope=Board|Minimum=15.75
