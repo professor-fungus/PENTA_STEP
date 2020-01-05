@@ -1,6 +1,6 @@
 (sym_lib_table
-  (lib (name 2019-12-26_03-08-20)(type Legacy)(uri /home/professor-fungus/Documents/projects/cnc/TMC_step_4axis/components/TMC5160/KiCAD/2019-12-26_03-08-20/2019-12-26_03-08-20.lib)(options "")(descr ""))
-  (lib (name 2019-12-26_17-57-50)(type Legacy)(uri /home/professor-fungus/Documents/projects/cnc/TMC_step_4axis/components/MCU/KiCAD/2019-12-26_17-57-50/2019-12-26_17-57-50.lib)(options "")(descr ""))
-  (lib (name CUSTOM)(type Legacy)(uri /home/professor-fungus/Documents/projects/cnc/TMC_step_4axis/QUAD_STEP/CUSTOM.lib)(options "")(descr ""))
-  (lib (name 2019-12-30_03-28-16)(type Legacy)(uri /home/professor-fungus/Documents/projects/cnc/TMC_step_4axis/components/psoc/KiCAD/2019-12-30_03-28-16/2019-12-30_03-28-16.lib)(options "")(descr ""))
+  (lib (name 2019-12-26_03-08-20)(type Legacy)(uri /home/user7/Documents/quad_step/QUAD_STEP/components/TMC5160/KiCAD/2019-12-26_03-08-20/2019-12-26_03-08-20.lib)(options "")(descr ""))
+  (lib (name 2019-12-26_17-57-50)(type Legacy)(uri /home/user7/Documents/quad_step/QUAD_STEP/components/MCU/KiCAD/2019-12-26_17-57-50/2019-12-26_17-57-50.lib)(options "")(descr ""))
+  (lib (name CUSTOM)(type Legacy)(uri /home/user7/Documents/quad_step/QUAD_STEP/QUAD_STEP/CUSTOM.lib)(options "")(descr ""))
+  (lib (name 2019-12-30_03-28-16)(type Legacy)(uri /home/user7/Documents/quad_step/QUAD_STEP/components/psoc/KiCAD/2019-12-30_03-28-16/2019-12-30_03-28-16.lib)(options "")(descr ""))
 )

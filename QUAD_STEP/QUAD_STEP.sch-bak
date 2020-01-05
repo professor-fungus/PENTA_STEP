@@ -513,7 +513,7 @@ F 5 "2057-DB25-SL-25-ND" H 1750 8050 50  0001 C CNN "DPN"
 	-1   0    0    1   
 $EndComp
 Text Notes 13050 10550 0    79   ~ 16
-Notes:\n3x SPI\n4x CS lines minimum\n4X DRV_ENN\n8x DIAG ports (consider using I2C I/O expander such as  TCA9554DBR. This has interrupt  capabilities. 2x for I2C, 1x for interrupt)\n4x STEP\n4x DIR\n\n22 total\n\n\nATMEGA 32u4\nhttps://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4RC-AU/ATMEGA32U4RC-AU-ND/2507982\n\nPSoC 4 may be a much better/cheaper alternative. https://www.youtube.com/watch?v=cHqENmk5RLE\nC++ on PSoC: https://blog.mbedded.ninja/programming/microcontrollers/psoc/using-cplusplus-with-psoc-creator/\nhttps://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C5468AXI-LP106/2015-CY8C5468AXI-LP106-ND/9809570\n\nUse ATTINY as the startup and go option, with a feature rich PSoC parallel processor
+Notes:\n3x SPI\n4x CS lines minimum\n4X DRV_ENN\n8x DIAG ports (consider using I2C I/O expander such as  TCA9554DBR. This has interrupt  capabilities. 2x for I2C, 1x for interrupt)\n4x STEP\n4x DIR\n\n22 total\n\n\nATMEGA 32u4\nhttps://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4RC-AU/ATMEGA32U4RC-AU-ND/2507982\n\nPSoC 4 may be a much better/cheaper alternative. https://www.youtube.com/watch?v=cHqENmk5RLE\nC++ on PSoC: https://blog.mbedded.ninja/programming/microcontrollers/psoc/using-cplusplus-with-psoc-creator/\nhttps://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C5468AXI-LP106/2015-CY8C5468AXI-LP106-ND/9809570\n\nUse ATTINY as the startup and go option, with a parallel and feature rich PSoC parallel processor
 Text Label 4750 4850 0    50   ~ 0
 ~ATM_ENA
 Wire Wire Line
