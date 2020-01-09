@@ -1,8 +1,8 @@
-(module TRANS_BUK7K12-60EX (layer F.Cu) (tedit 5E04273B)
+(module TRANS_BUK7K12-60EX (layer F.Cu) (tedit 5E12C157)
   (fp_text reference REF** (at -1.125 -3.935) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
-  (fp_text value TRANS_BUK7K12-60EX (at 7.03 3.865) (layer F.Fab)
+  (fp_text value TRANS_BUK7K12-60EX (at 7.03 3.865) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.015)))
   )
   (fp_line (start -2.35 2.65) (end 2.35 2.65) (layer F.SilkS) (width 0.127))

@@ -1,8 +1,8 @@
-(module CUI_UJ2-BH-W1-TH (layer F.Cu) (tedit 5E06C2F3)
+(module CUI_UJ2-BH-W1-TH (layer F.Cu) (tedit 5E12C199)
   (fp_text reference REF** (at -4.18149 -2.51892) (layer F.SilkS)
     (effects (font (size 1.001559 1.001559) (thickness 0.015)))
   )
-  (fp_text value CUI_UJ2-BH-W1-TH (at 2.81037 15.68731) (layer F.Fab)
+  (fp_text value CUI_UJ2-BH-W1-TH (at 2.81037 15.68731) (layer F.Fab) hide
     (effects (font (size 1.000142 1.000142) (thickness 0.015)))
   )
   (fp_line (start -7.6 2.74) (end -7.6 -1.88) (layer F.CrtYd) (width 0.05))
@@ -19,7 +19,7 @@
   (fp_line (start -7.6 -1.88) (end 5.1 -1.88) (layer F.CrtYd) (width 0.05))
   (fp_line (start 4.85 14.99) (end 11.75 14.99) (layer F.Fab) (width 0.127))
   (fp_line (start 4.85 14.87) (end 4.85 14.99) (layer F.Fab) (width 0.127))
-  (fp_text user PCB~EDGE (at 5.04845 14.6846) (layer F.Fab)
+  (fp_text user PCB~EDGE (at 5.04845 14.6846) (layer F.Fab) hide
     (effects (font (size 0.630977 0.630977) (thickness 0.015)))
   )
   (fp_circle (center 5.5 0) (end 5.828937 0) (layer F.SilkS) (width 0.127))
