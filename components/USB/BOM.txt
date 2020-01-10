@@ -1,0 +1,3 @@
+3DX_CUI_DEVICES_Supplier: CUI Devices
+3DX_CUI_DEVICES_Description: 3 µin Plating Thickness, White Insulator, USB Receptacle
+3DX_CUI_DEVICES_Model Number: UJ2-BH-W1-TH
