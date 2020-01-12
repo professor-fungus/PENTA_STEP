@@ -17,4 +17,4 @@ If less than 5 axes are desired, less can be populated (although this wouldn't s
 
 Target is a 4-layer board currently.
 
-![Test Image 1](PENTA_STEP.png)
+[Test Image 1](PENTA_STEP.png)
