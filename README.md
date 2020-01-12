@@ -9,9 +9,10 @@ If one fails, it will require soldering rework; this may not be optimal for thos
 The drives utilize Trinamic TMC5160's, based on the schematic for the TMC5160-BOB.
 
 Why five drives? 
-	3 axes and 2 extruders for 3D printing.
-	3 cartesian axes and 2 orthogonal axes for milling.
-	5 axis robots
+	- 3 axes and 2 extruders for 3D printing.
+	- 3 cartesian axes and 2 orthogonal axes for milling.
+	- 5 axis robots.
+	- Too little space for 4 on 100mmx100mm board from JLCPCB, so go big or go home.
 
 If less than 5 axes are desired, less can be populated (although this wouldn't save much).
 
