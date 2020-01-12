@@ -1,4 +1,4 @@
-# QUAD_STEP
+# PENTA_STEP
 
 I hate tracking down EMI through jumpers.
 
