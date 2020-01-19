@@ -1,6 +1,6 @@
-(module TRANS_BUK7K12-60EX (layer F.Cu) (tedit 5E12C157)
+(module TRANS_BUK7K12-60EX (layer F.Cu) (tedit 5E23B94A)
   (fp_text reference REF** (at -1.125 -3.935) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.015)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value TRANS_BUK7K12-60EX (at 7.03 3.865) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.015)))
@@ -35,4 +35,9 @@
   (pad 4 smd rect (at -3.275 1.905) (size 1.15 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 2.25 1.905) (size 1.9 0.7) (layers F.Cu F.Paste))
   (pad 6 smd rect (at 2.25 0.635) (size 1.9 0.7) (layers F.Cu F.Paste))
+  (model ${KIPRJMOD}/components/FETs/SOT1205.step
+    (offset (xyz -0.8127999877929688 0 0.2539999961853027))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

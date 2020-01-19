@@ -1,4 +1,4 @@
-(module 640456-2 (layer F.Cu) (tedit 5E1A2BE5)
+(module 640456-2 (layer F.Cu) (tedit 5E23B11D)
   (fp_text reference REF** (at 1.27 3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -29,4 +29,9 @@
   )
   (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/components/2_pos_MTA100/c-640456-2-aa-3d.stp
+    (offset (xyz 1.269999980926514 0.4317999935150147 2.539999961853027))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

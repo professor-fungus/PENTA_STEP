@@ -1,6 +1,6 @@
-(module CUI_UJ2-BH-W1-TH (layer F.Cu) (tedit 5E12C199)
+(module CUI_UJ2-BH-W1-TH (layer F.Cu) (tedit 5E23B552)
   (fp_text reference REF** (at -4.18149 -2.51892) (layer F.SilkS)
-    (effects (font (size 1.001559 1.001559) (thickness 0.015)))
+    (effects (font (size 1.001559 1.001559) (thickness 0.15)))
   )
   (fp_text value CUI_UJ2-BH-W1-TH (at 2.81037 15.68731) (layer F.Fab) hide
     (effects (font (size 1.000142 1.000142) (thickness 0.015)))
@@ -40,4 +40,9 @@
   (pad 3 thru_hole circle (at -2.5 2) (size 1.428 1.428) (drill 0.92) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.428 1.428) (drill 0.92) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.5 0) (size 1.428 1.428) (drill 0.92) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/components/USB/CUI_DEVICES_UJ2-BH-W1-TH.step
+    (offset (xyz -1.244599981307984 -14.47799978256226 0.6349999904632568))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

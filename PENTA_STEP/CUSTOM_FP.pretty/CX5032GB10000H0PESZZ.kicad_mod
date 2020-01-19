@@ -1,8 +1,8 @@
-(module CX5032GB10000H0PESZZ (layer F.Cu) (tedit 5E16E0CA)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+(module CX5032GB10000H0PESZZ (layer F.Cu) (tedit 5E23B613)
+  (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value xtal2_CX5032GB (at 0 0) (layer F.SilkS)
+  (fp_text value xtal2_CX5032GB (at 0 -2.54) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center -3.8735 0) (end -3.7973 0) (layer F.SilkS) (width 0.1524))

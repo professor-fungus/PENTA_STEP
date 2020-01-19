@@ -1,4 +1,4 @@
-(module keystone_3549_2_fuseholder_THT (layer F.Cu) (tedit 5E140F7E)
+(module keystone_3549_2_fuseholder_THT (layer F.Cu) (tedit 5E23B818)
   (descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x02 2.54mm double row")
   (fp_text reference REF** (at 1.27 -6.35) (layer F.SilkS)
@@ -26,9 +26,9 @@
   (pad 2 thru_hole circle (at 10.3 0) (size 3.5 3.5) (drill 1.93) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 7.5) (size 2.2 2.2) (drill 1.17) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 10.3 7.5) (size 3.5 3.5) (drill 1.93) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x02_P2.54mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/components/fuse_holder/keystone-PN3549-2.STEP
+    (offset (xyz 5.384799919128418 -4.013199939727783 6.857999897003174))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )

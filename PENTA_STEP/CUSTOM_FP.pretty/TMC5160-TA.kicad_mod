@@ -1,4 +1,4 @@
-(module TMC5160-TA (layer F.Cu) (tedit 5E12C126)
+(module TMC5160-TA (layer F.Cu) (tedit 5E23B8BF)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -350,4 +350,9 @@
   (pad 3 smd rect (at -4.1148 -1.749999 90) (size 0.2286 1.4732) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4.1148 -2.250001 90) (size 0.2286 1.4732) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -4.1148 -2.75 90) (size 0.2286 1.4732) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/components/TMC5160/2019-12-26_03-08-04/STEP/eTQFP48_9x9.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 2019-12-26_03-08-20)(type Legacy)(uri ${KIPRJMOD}/components/TMC5160/KiCAD/2019-12-26_03-08-20/2019-12-26_03-08-20.lib)(options "")(descr ""))
+  (lib (name 2019-12-26_17-57-50)(type Legacy)(uri ${KIPRJMOD}/components/MCU/KiCAD/2019-12-26_17-57-50/2019-12-26_17-57-50.lib)(options "")(descr ""))
+  (lib (name CUSTOM)(type Legacy)(uri ${KIPRJMOD}/CUSTOM.lib)(options "")(descr ""))
+  (lib (name 2019-12-30_03-28-16)(type Legacy)(uri ${KIPRJMOD}/components/psoc/KiCAD/2019-12-30_03-28-16/2019-12-30_03-28-16.lib)(options "")(descr ""))
+)

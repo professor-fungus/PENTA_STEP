@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:QUAD_STEP-cache
+LIBS:PENTA_STEP-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
