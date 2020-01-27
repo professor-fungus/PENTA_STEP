@@ -14,286 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 2019-12-26_17-57-50:ATTINY841-SSU U1
-U 1 1 5E0534B2
-P 5250 4450
-F 0 "U1" H 6350 4837 60  0000 C CNN
-F 1 "ATTINY841-SSU" H 6350 4731 60  0000 C CNN
-F 2 "CUSTOM_FP:ATTINY841-SSU" H 6350 4690 60  0001 C CNN
-F 3 "" H 5250 4450 60  0000 C CNN
-F 4 "ATTINY841-SSU" H 5250 4450 50  0001 C CNN "MPN"
-F 5 "ATTINY841-SSU-ND" H 5250 4450 50  0001 C CNN "DPN"
-	1    5250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5E053675
-P 3750 4650
-F 0 "C2" H 3865 4696 50  0000 L CNN
-F 1 "100n" H 3865 4605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 4500 50  0001 C CNN
-F 3 "" H 3750 4650 50  0001 C CNN
-F 4 "06031C104KAT2A" H 3750 4650 50  0001 C CNN "MPN"
-F 5 "478-10047-1-ND" H 3750 4650 50  0001 C CNN "DPN"
-F 6 "CL10B104KC8NNNC,1276-6807-1-ND" H 3750 4650 50  0001 C CNN "ALTERNATE"
-	1    3750 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5E053C35
-P 3400 4650
-F 0 "C1" H 3515 4696 50  0000 L CNN
-F 1 "10u" H 3515 4605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 4500 50  0001 C CNN
-F 3 "" H 3400 4650 50  0001 C CNN
-F 4 "JMK107ABJ106MA-T" H 3400 4650 50  0001 C CNN "MPN"
-F 5 "587-5869-1-ND" H 3400 4650 50  0001 C CNN "DPN"
-F 6 "CL10A106MQ8NNNC,1276-1119-1-ND" H 3400 4650 50  0001 C CNN "ALTERNATE"
-	1    3400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 5E053E6B
-P 5200 3100
-F 0 "Y1" H 5200 3368 50  0000 C CNN
-F 1 "10MHz" H 5200 3277 50  0000 C CNN
-F 2 "CUSTOM_FP:CX5032GB10000H0PESZZ" H 5200 3100 50  0001 C CNN
-F 3 "~" H 5200 3100 50  0001 C CNN
-F 4 "CX5032GB10000H0PESZZ" H 5200 3100 50  0001 C CNN "MPN"
-F 5 "478-4358-1-ND" H 5200 3100 50  0001 C CNN "DPN"
-	1    5200 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5E053F5F
-P 4900 3350
-F 0 "C5" H 5015 3396 50  0000 L CNN
-F 1 "18p" H 5015 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 3200 50  0001 C CNN
-F 3 "" H 4900 3350 50  0001 C CNN
-F 4 "C0603C180K5RACAUTO" H 4900 3350 50  0001 C CNN "MPN"
-F 5 "399-17581-1-ND" H 4900 3350 50  0001 C CNN "DPN"
-	1    4900 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5E05404E
-P 6400 2800
-F 0 "R5" H 6470 2846 50  0000 L CNN
-F 1 "10k" H 6470 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6330 2800 50  0001 C CNN
-F 3 "~" H 6400 2800 50  0001 C CNN
-F 4 "RC0603JR-0710KL" H 6400 2800 50  0001 C CNN "MPN"
-F 5 "311-10KGRCT-ND" H 6400 2800 50  0001 C CNN "DPN"
-F 6 "ERJ-3GEYJ103V,P10KGCT-ND" H 6400 2800 50  0001 C CNN "ALTERNATE"
-	1    6400 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 4500 3400 4450
-Wire Wire Line
-	3400 4450 3750 4450
-Wire Wire Line
-	3750 4500 3750 4450
-Connection ~ 3750 4450
-Wire Wire Line
-	3750 4450 5250 4450
-$Comp
-L power:GND #PWR04
-U 1 1 5E05A499
-P 3400 4850
-F 0 "#PWR04" H 3400 4600 50  0001 C CNN
-F 1 "GND" H 3400 4750 50  0000 C TNN
-F 2 "" H 3400 4850 50  0001 C CNN
-F 3 "" H 3400 4850 50  0001 C CNN
-	1    3400 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5E05A750
-P 3750 4850
-F 0 "#PWR05" H 3750 4600 50  0001 C CNN
-F 1 "GND" H 3750 4750 50  0000 C TNN
-F 2 "" H 3750 4850 50  0001 C CNN
-F 3 "" H 3750 4850 50  0001 C CNN
-	1    3750 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 4800 3400 4850
-Wire Wire Line
-	3750 4800 3750 4850
-$Comp
-L power:GND #PWR08
-U 1 1 5E05EFF9
-P 4900 3600
-F 0 "#PWR08" H 4900 3350 50  0001 C CNN
-F 1 "GND" H 4900 3500 50  0000 C TNN
-F 2 "" H 4900 3600 50  0001 C CNN
-F 3 "" H 4900 3600 50  0001 C CNN
-	1    4900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5E05F0E8
-P 5500 3600
-F 0 "#PWR010" H 5500 3350 50  0001 C CNN
-F 1 "GND" H 5500 3500 50  0000 C TNN
-F 2 "" H 5500 3600 50  0001 C CNN
-F 3 "" H 5500 3600 50  0001 C CNN
-	1    5500 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 3600 4900 3500
-Wire Wire Line
-	5500 3500 5500 3600
-Wire Wire Line
-	5050 3100 4900 3100
-Wire Wire Line
-	4900 3100 4900 3200
-Wire Wire Line
-	5350 3100 5500 3100
-Wire Wire Line
-	5500 3100 5500 3200
-Wire Wire Line
-	4900 3100 4900 2500
-Wire Wire Line
-	4900 2500 5300 2500
-Connection ~ 4900 3100
-Wire Wire Line
-	5500 3100 5500 2500
-Wire Wire Line
-	5500 2500 5900 2500
-Connection ~ 5500 3100
-Text Label 5300 2500 2    50   ~ 0
-10M_XTAL1
-$Comp
-L CUSTOM:ICSP J8
-U 1 1 5E079888
-P 7450 3150
-F 0 "J8" H 7450 3525 50  0000 C CNN
-F 1 "ICSP" H 7450 3434 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7450 3150 50  0001 C CNN
-F 3 "" H 7450 3150 50  0001 C CNN
-	1    7450 3150
-	1    0    0    -1  
-$EndComp
-Text Label 6000 3300 0    50   ~ 0
-~ATM_RST
-Text Label 6700 3150 0    50   ~ 0
-ATM_SCK
-Text Label 6700 3000 0    50   ~ 0
-ATM_MISO
-Text Label 8200 3150 2    50   ~ 0
-ATM_MOSI
-$Comp
-L power:GND #PWR019
-U 1 1 5E079E76
-P 7900 3350
-F 0 "#PWR019" H 7900 3100 50  0001 C CNN
-F 1 "GND" H 7900 3250 50  0000 C TNN
-F 2 "" H 7900 3350 50  0001 C CNN
-F 3 "" H 7900 3350 50  0001 C CNN
-	1    7900 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 3300 7900 3300
-Wire Wire Line
-	7900 3300 7900 3350
-Wire Wire Line
-	8200 3150 7800 3150
-Wire Wire Line
-	7800 3000 8200 3000
-Wire Wire Line
-	6700 3000 7100 3000
-Wire Wire Line
-	7100 3150 6700 3150
-Wire Wire Line
-	6000 3300 6400 3300
-Text Label 4750 4750 0    50   ~ 0
-~ATM_RST
-Wire Wire Line
-	4750 4750 5250 4750
-Text Label 6850 2550 2    50   ~ 0
-VCC_CONT
-Wire Wire Line
-	6400 2950 6400 3300
-Connection ~ 6400 3300
-Wire Wire Line
-	6400 3300 7100 3300
-Wire Wire Line
-	6850 2550 6400 2550
-Wire Wire Line
-	6400 2550 6400 2650
-Text Label 4750 4650 0    50   ~ 0
-10M_XTAL1
-Wire Wire Line
-	4750 4550 5250 4550
-Wire Wire Line
-	5250 4650 4750 4650
-Text Label 4750 5050 0    50   ~ 0
-ATM_MOSI
-Wire Wire Line
-	4750 5050 5250 5050
-Text Label 8150 5050 2    50   ~ 0
-ATM_MISO
-Wire Wire Line
-	8150 5050 7450 5050
-Text Label 8150 4950 2    50   ~ 0
-ATM_SCK
-Wire Wire Line
-	8150 4950 7450 4950
-$Comp
-L power:GND #PWR020
-U 1 1 5E0A8139
-P 8550 4500
-F 0 "#PWR020" H 8550 4250 50  0001 C CNN
-F 1 "GND" H 8550 4400 50  0000 C TNN
-F 2 "" H 8550 4500 50  0001 C CNN
-F 3 "" H 8550 4500 50  0001 C CNN
-	1    8550 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 4450 8550 4500
-Wire Wire Line
-	3300 4450 3400 4450
-Connection ~ 3400 4450
-$Sheet
-S 12300 2150 1100 1700
-U 5E4B7A4F
-F0 "DRIVE_1" 50
-F1 "drive.sch" 50
-F2 "VM" I R 13400 2250 50 
-F3 "BMA1" O R 13400 2650 50 
-F4 "BMA2" O R 13400 2750 50 
-F5 "BMB1" O R 13400 2450 50 
-F6 "BMB2" O R 13400 2550 50 
-F7 "CLK16" I L 12300 2400 50 
-F8 "MISO" O L 12300 3050 50 
-F9 "MOSI" I L 12300 2950 50 
-F10 "SCK" I L 12300 2750 50 
-F11 "CS" I L 12300 2850 50 
-F12 "DIAG0" O R 13400 2950 50 
-F13 "DIAG1" O R 13400 3050 50 
-F14 "VCC_IO" I L 12300 2250 50 
-F15 "REFL_STEP" I L 12300 3250 50 
-F16 "REFR_DIR" I L 12300 3350 50 
-F17 "ENC_A" I L 12300 3650 50 
-F18 "ENC_B" I L 12300 3550 50 
-F19 "ENC_N" I L 12300 3750 50 
-F20 "~DRV_ENN" I L 12300 2500 50 
-$EndSheet
 $Sheet
 S 12300 4700 1100 1700
 U 5E50A85F
@@ -481,36 +201,6 @@ F 5 "2057-DB25-SL-25-ND" H 1750 8050 50  0001 C CNN "DPN"
 $EndComp
 Text Notes 14000 14400 0    79   ~ 16
 Notes:\n3x SPI\n4x CS lines minimum\n4X DRV_ENN\n8x DIAG ports (consider using I2C I/O expander such as  TCA9554DBR. This has interrupt  capabilities. 2x for I2C, 1x for interrupt)\n4x STEP\n4x DIR\n\n22 total\n\n\nATMEGA 32u4\nhttps://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4RC-AU/ATMEGA32U4RC-AU-ND/2507982\n\nPSoC 4 may be a much better/cheaper alternative. https://www.youtube.com/watch?v=cHqENmk5RLE\nC++ on PSoC: https://blog.mbedded.ninja/programming/microcontrollers/psoc/using-cplusplus-with-psoc-creator/\nhttps://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C5468AXI-LP106/2015-CY8C5468AXI-LP106-ND/9809570\n\nUse ATTINY as the startup and go option, with a feature rich PSoC parallel processor\n\nBOM tool\nhttps://github.com/SchrodingersGat/KiBoM
-Text Label 4750 4850 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	4750 4850 5250 4850
-Text Label 11050 2500 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	11050 2500 11550 2500
-Wire Wire Line
-	11850 2500 12050 2500
-Text Label 11050 5050 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	11050 5050 11550 5050
-Wire Wire Line
-	11850 5050 12050 5050
-Text Label 15950 5050 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	15950 5050 16450 5050
-Wire Wire Line
-	16750 5050 16950 5050
-Text Label 15950 2500 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	15950 2500 16450 2500
-Wire Wire Line
-	16750 2500 16950 2500
-Wire Wire Line
-	7450 4450 8550 4450
 Text Label 11050 5200 0    50   ~ 0
 ~PAR_ENA
 Wire Wire Line
@@ -557,16 +247,6 @@ Wire Wire Line
 	16950 5050 17200 5050
 Text Label 2700 9250 2    50   ~ 0
 ~PAR_ENA
-Text Label 8150 4550 2    50   ~ 0
-ATM_CS1
-Text Label 8150 4650 2    50   ~ 0
-ATM_CS2
-Text Label 8150 4750 2    50   ~ 0
-ATM_CS3
-Text Label 8150 4850 2    50   ~ 0
-ATM_CS4
-Text Label 10050 2850 0    50   ~ 0
-ATM_CS1
 Text Label 11050 2350 0    50   ~ 0
 ~CYP_ENA_1
 Wire Wire Line
@@ -577,36 +257,20 @@ Wire Wire Line
 	12050 2350 12050 2500
 Text Label 10050 2750 0    50   ~ 0
 CYP_CS1
-Text Label 10050 2650 0    50   ~ 0
-ATM_SCK
 Wire Wire Line
 	12300 2750 11000 2750
 Wire Wire Line
-	11000 2750 11000 2650
-Wire Wire Line
-	11000 2650 10800 2650
-Wire Wire Line
 	10800 2550 11000 2550
-Wire Wire Line
-	11000 2550 11000 2650
-Connection ~ 11000 2650
 Wire Wire Line
 	10050 2550 10500 2550
 Wire Wire Line
-	10500 2650 10050 2650
-Wire Wire Line
 	10050 2750 10500 2750
-Wire Wire Line
-	10050 2850 10500 2850
 Wire Wire Line
 	10800 2750 10950 2750
 Wire Wire Line
 	10950 2750 10950 2850
 Wire Wire Line
-	10800 2850 10950 2850
-Wire Wire Line
 	10950 2850 12300 2850
-Connection ~ 10950 2850
 Text Label 15950 2350 0    50   ~ 0
 ~CYP_ENA_3
 Wire Wire Line
@@ -631,40 +295,18 @@ Wire Wire Line
 	11850 4900 12050 4900
 Wire Wire Line
 	12050 4900 12050 5050
-Text Label 10050 3050 0    50   ~ 0
-ATM_MOSI
 Text Label 10050 2950 0    50   ~ 0
-CYP_MOSI
-Text Label 10050 3250 0    50   ~ 0
-ATM_MISO
+CYP_MOSI1
 Text Label 10050 3150 0    50   ~ 0
-CYP_MISO
+CYP_MISO1
 Wire Wire Line
 	10050 2950 10500 2950
 Wire Wire Line
-	10500 3050 10050 3050
-Wire Wire Line
 	10050 3150 10500 3150
-Wire Wire Line
-	10500 3250 10050 3250
-Wire Wire Line
-	10800 2950 10950 2950
-Wire Wire Line
-	10800 3050 10950 3050
-Wire Wire Line
-	10950 3050 10950 2950
-Connection ~ 10950 2950
-Wire Wire Line
-	10950 2950 12300 2950
-Wire Wire Line
-	10800 3250 11000 3250
-Wire Wire Line
-	11000 3250 11000 3150
 Wire Wire Line
 	11000 3050 12300 3050
 Wire Wire Line
 	10800 3150 11000 3150
-Connection ~ 11000 3150
 Wire Wire Line
 	11000 3150 11000 3050
 Text Label 11050 3250 0    50   ~ 0
@@ -747,8 +389,6 @@ Text Label 2700 7650 2    50   ~ 0
 PAR_STEP1
 Text Label 2700 7850 2    50   ~ 0
 PAR_DIR1
-Text Label 8200 3000 2    50   ~ 0
-VCC_CONT
 Text Label 11450 2100 0    50   ~ 0
 VCC_CONT
 Wire Wire Line
@@ -757,8 +397,6 @@ Wire Wire Line
 	12250 2100 12250 2250
 Wire Wire Line
 	12250 2250 12300 2250
-Text Label 2500 4450 0    50   ~ 0
-VCC_CONT
 Wire Wire Line
 	11450 2100 11900 2100
 Text Label 13250 4050 2    50   ~ 0
@@ -781,8 +419,6 @@ Wire Wire Line
 	12200 3800 12200 3750
 Wire Wire Line
 	12200 3750 12300 3750
-Wire Wire Line
-	2500 4450 3000 4450
 Text Label 11450 4650 0    50   ~ 0
 VCC_CONT
 Wire Wire Line
@@ -813,72 +449,32 @@ Wire Wire Line
 	17150 2250 17200 2250
 Wire Wire Line
 	16300 2100 16800 2100
-Text Label 10050 5400 0    50   ~ 0
-ATM_CS2
 Text Label 10050 5300 0    50   ~ 0
 CYP_CS2
-Text Label 10050 5200 0    50   ~ 0
-ATM_SCK
 Wire Wire Line
 	12300 5300 11000 5300
 Wire Wire Line
-	11000 5300 11000 5200
-Wire Wire Line
-	11000 5200 10800 5200
-Wire Wire Line
 	10800 5100 11000 5100
 Wire Wire Line
-	11000 5100 11000 5200
-Connection ~ 11000 5200
-Wire Wire Line
-	10500 5200 10050 5200
-Wire Wire Line
 	10050 5300 10500 5300
-Wire Wire Line
-	10050 5400 10500 5400
 Wire Wire Line
 	10800 5300 10950 5300
 Wire Wire Line
 	10950 5300 10950 5400
 Wire Wire Line
-	10800 5400 10950 5400
-Wire Wire Line
 	10950 5400 12300 5400
-Connection ~ 10950 5400
-Text Label 10050 5600 0    50   ~ 0
-ATM_MOSI
 Text Label 10050 5500 0    50   ~ 0
-CYP_MOSI
-Text Label 10050 5800 0    50   ~ 0
-ATM_MISO
+CYP_MOSI2
 Text Label 10050 5700 0    50   ~ 0
-CYP_MISO
+CYP_MISO2
 Wire Wire Line
 	10050 5500 10500 5500
 Wire Wire Line
-	10500 5600 10050 5600
-Wire Wire Line
 	10050 5700 10500 5700
-Wire Wire Line
-	10500 5800 10050 5800
-Wire Wire Line
-	10800 5500 10950 5500
-Wire Wire Line
-	10800 5600 10950 5600
-Wire Wire Line
-	10950 5600 10950 5500
-Connection ~ 10950 5500
-Wire Wire Line
-	10950 5500 12300 5500
-Wire Wire Line
-	10800 5800 11000 5800
-Wire Wire Line
-	11000 5800 11000 5700
 Wire Wire Line
 	11000 5600 12300 5600
 Wire Wire Line
 	10800 5700 11000 5700
-Connection ~ 11000 5700
 Wire Wire Line
 	11000 5700 11000 5600
 Text Label 11100 5800 0    50   ~ 0
@@ -958,144 +554,64 @@ Text Label 13250 6600 2    50   ~ 0
 VCC_CONT
 Wire Wire Line
 	12700 6600 13250 6600
-Text Label 14950 5400 0    50   ~ 0
-ATM_CS4
 Text Label 14950 5300 0    50   ~ 0
 CYP_CS4
-Text Label 14950 5200 0    50   ~ 0
-ATM_SCK
 Wire Wire Line
 	17200 5300 15900 5300
 Wire Wire Line
-	15900 5300 15900 5200
-Wire Wire Line
-	15900 5200 15700 5200
-Wire Wire Line
 	15700 5100 15900 5100
-Wire Wire Line
-	15900 5100 15900 5200
-Connection ~ 15900 5200
 Wire Wire Line
 	14950 5100 15400 5100
 Wire Wire Line
-	15400 5200 14950 5200
-Wire Wire Line
 	14950 5300 15400 5300
-Wire Wire Line
-	14950 5400 15400 5400
 Wire Wire Line
 	15700 5300 15850 5300
 Wire Wire Line
 	15850 5300 15850 5400
 Wire Wire Line
-	15700 5400 15850 5400
-Wire Wire Line
 	15850 5400 17200 5400
-Connection ~ 15850 5400
-Text Label 14950 5600 0    50   ~ 0
-ATM_MOSI
 Text Label 14950 5500 0    50   ~ 0
-CYP_MOSI
-Text Label 14950 5800 0    50   ~ 0
-ATM_MISO
+CYP_MOSI4
 Text Label 14950 5700 0    50   ~ 0
-CYP_MISO
+CYP_MISO4
 Wire Wire Line
 	14950 5500 15400 5500
 Wire Wire Line
-	15400 5600 14950 5600
-Wire Wire Line
 	14950 5700 15400 5700
-Wire Wire Line
-	15400 5800 14950 5800
-Wire Wire Line
-	15700 5500 15850 5500
-Wire Wire Line
-	15700 5600 15850 5600
-Wire Wire Line
-	15850 5600 15850 5500
-Connection ~ 15850 5500
-Wire Wire Line
-	15850 5500 17200 5500
-Wire Wire Line
-	15700 5800 15900 5800
-Wire Wire Line
-	15900 5800 15900 5700
 Wire Wire Line
 	15900 5600 17200 5600
 Wire Wire Line
 	15700 5700 15900 5700
-Connection ~ 15900 5700
 Wire Wire Line
 	15900 5700 15900 5600
-Text Label 14950 2850 0    50   ~ 0
-ATM_CS3
 Text Label 14950 2750 0    50   ~ 0
 CYP_CS3
-Text Label 14950 2650 0    50   ~ 0
-ATM_SCK
 Wire Wire Line
 	17200 2750 15900 2750
 Wire Wire Line
-	15900 2750 15900 2650
-Wire Wire Line
-	15900 2650 15700 2650
-Wire Wire Line
 	15700 2550 15900 2550
-Wire Wire Line
-	15900 2550 15900 2650
-Connection ~ 15900 2650
 Wire Wire Line
 	14950 2550 15400 2550
 Wire Wire Line
-	15400 2650 14950 2650
-Wire Wire Line
 	14950 2750 15400 2750
-Wire Wire Line
-	14950 2850 15400 2850
 Wire Wire Line
 	15700 2750 15850 2750
 Wire Wire Line
 	15850 2750 15850 2850
 Wire Wire Line
-	15700 2850 15850 2850
-Wire Wire Line
 	15850 2850 17200 2850
-Connection ~ 15850 2850
-Text Label 14950 3050 0    50   ~ 0
-ATM_MOSI
 Text Label 14950 2950 0    50   ~ 0
-CYP_MOSI
-Text Label 14950 3250 0    50   ~ 0
-ATM_MISO
+CYP_MOSI3
 Text Label 14950 3150 0    50   ~ 0
-CYP_MISO
+CYP_MISO3
 Wire Wire Line
 	14950 2950 15400 2950
 Wire Wire Line
-	15400 3050 14950 3050
-Wire Wire Line
 	14950 3150 15400 3150
-Wire Wire Line
-	15400 3250 14950 3250
-Wire Wire Line
-	15700 2950 15850 2950
-Wire Wire Line
-	15700 3050 15850 3050
-Wire Wire Line
-	15850 3050 15850 2950
-Connection ~ 15850 2950
-Wire Wire Line
-	15850 2950 17200 2950
-Wire Wire Line
-	15700 3250 15900 3250
-Wire Wire Line
-	15900 3250 15900 3150
 Wire Wire Line
 	15900 3050 17200 3050
 Wire Wire Line
 	15700 3150 15900 3150
-Connection ~ 15900 3150
 Wire Wire Line
 	15900 3150 15900 3050
 Text Label 15950 5800 0    50   ~ 0
@@ -1971,32 +1487,24 @@ Wire Wire Line
 NoConn ~ 9100 15100
 Text Label 2950 11000 0    50   ~ 0
 VTARG
-Wire Wire Line
-	2950 11100 3300 11100
-Wire Wire Line
-	3800 11100 4300 11100
 Connection ~ 4300 11100
 Wire Wire Line
 	3800 11000 4300 11000
 Wire Wire Line
 	4300 11000 4300 11100
 Wire Wire Line
-	3300 11000 2950 11000
-Text Label 10100 8450 2    50   ~ 0
-~CYP_ENA_1
-Text Label 10200 13750 2    50   ~ 0
-CYP_CS1
-Text Label 10100 8250 2    50   ~ 0
-CYP_MOSI
-Text Label 10100 8350 2    50   ~ 0
-CYP_MISO
-Text Label 10200 13850 2    50   ~ 0
-CYP_STEP1
+	3600 11000 2950 11000
 Text Label 10200 13950 2    50   ~ 0
+~CYP_ENA_1
+Text Label 10200 13350 2    50   ~ 0
+CYP_CS1
+Text Label 10200 13750 2    50   ~ 0
+CYP_STEP1
+Text Label 10200 13850 2    50   ~ 0
 CYP_DIR1
-Text Label 10100 8750 2    50   ~ 0
+Text Label 10200 14050 2    50   ~ 0
 DIAG_0_1
-Text Label 10100 8850 2    50   ~ 0
+Text Label 10200 14350 2    50   ~ 0
 DIAG_1_1
 Text Label 14250 5500 2    50   ~ 0
 DIAG_0_2
@@ -2034,37 +1542,37 @@ Wire Wire Line
 	19200 5500 18700 5500
 Text Label 19200 5600 2    50   ~ 0
 DIAG_1_4
-Text Label 10100 8950 2    50   ~ 0
+Text Label 10100 7850 2    50   ~ 0
 ~CYP_ENA_2
-Text Label 10100 7550 2    50   ~ 0
+Text Label 10200 14450 2    50   ~ 0
 CYP_CS2
-Text Label 10100 9050 2    50   ~ 0
-CYP_STEP2
-Text Label 10100 9150 2    50   ~ 0
-CYP_DIR2
-Text Label 10100 9250 2    50   ~ 0
-DIAG_0_2
-Text Label 10100 9350 2    50   ~ 0
-DIAG_1_2
-Text Label 10100 9450 2    50   ~ 0
-~CYP_ENA_3
 Text Label 10100 7650 2    50   ~ 0
-CYP_CS3
-Text Label 10100 9750 2    50   ~ 0
-DIAG_0_3
-Text Label 10100 9850 2    50   ~ 0
-DIAG_1_3
-Text Label 10100 9950 2    50   ~ 0
-~CYP_ENA_4
+CYP_STEP2
 Text Label 10100 7750 2    50   ~ 0
-CYP_CS4
+CYP_DIR2
+Text Label 10100 7950 2    50   ~ 0
+DIAG_0_2
+Text Label 10100 8050 2    50   ~ 0
+DIAG_1_2
+Text Label 10100 8950 2    50   ~ 0
+~CYP_ENA_3
+Text Label 10100 8350 2    50   ~ 0
+CYP_CS3
+Text Label 10100 9050 2    50   ~ 0
+DIAG_0_3
+Text Label 10100 9150 2    50   ~ 0
+DIAG_1_3
 Text Label 10100 10050 2    50   ~ 0
+~CYP_ENA_4
+Text Label 10100 9250 2    50   ~ 0
+CYP_CS4
+Text Label 10100 9650 2    50   ~ 0
 CYP_STEP4
-Text Label 10100 10750 2    50   ~ 0
+Text Label 10100 9750 2    50   ~ 0
 CYP_DIR4
-Text Label 10100 10850 2    50   ~ 0
+Text Label 10100 9850 2    50   ~ 0
 DIAG_0_4
-Text Label 10100 10950 2    50   ~ 0
+Text Label 10100 9950 2    50   ~ 0
 DIAG_1_4
 Text Label 10550 14250 2    50   ~ 0
 CYP_SCL
@@ -2094,18 +1602,16 @@ Wire Wire Line
 	10100 7650 9750 7650
 Wire Wire Line
 	9750 7750 10100 7750
-NoConn ~ 9850 7950
-NoConn ~ 9850 8050
 Wire Wire Line
-	9750 8250 10100 8250
+	9750 8250 10200 8250
 Wire Wire Line
 	10100 8350 9750 8350
 Wire Wire Line
 	9750 8450 10100 8450
 Wire Wire Line
-	10200 8550 9750 8550
+	10100 8550 9750 8550
 Wire Wire Line
-	9750 8650 10200 8650
+	9750 8650 10100 8650
 Wire Wire Line
 	10100 8750 9750 8750
 Wire Wire Line
@@ -2139,29 +1645,21 @@ Wire Wire Line
 Wire Wire Line
 	10100 10950 9750 10950
 Wire Wire Line
-	9850 8050 9750 8050
+	10100 8050 9750 8050
 Wire Wire Line
-	9850 7950 9750 7950
+	10100 7950 9750 7950
 Wire Wire Line
 	10100 7850 9750 7850
-NoConn ~ 9850 10150
-NoConn ~ 9850 10250
-NoConn ~ 9850 10350
 Wire Wire Line
-	9850 10350 9750 10350
+	10100 10350 9750 10350
 Wire Wire Line
-	9850 10250 9750 10250
+	10100 10250 9750 10250
 Wire Wire Line
-	9850 10150 9750 10150
-NoConn ~ 9850 10450
-NoConn ~ 9850 10550
-NoConn ~ 9850 10650
+	10100 10150 9750 10150
 Wire Wire Line
-	9850 10650 9750 10650
+	10100 10650 9750 10650
 Wire Wire Line
-	9850 10550 9750 10550
-Wire Wire Line
-	9850 10450 9750 10450
+	10100 10450 9750 10450
 Wire Wire Line
 	10100 11150 9750 11150
 Wire Wire Line
@@ -2183,7 +1681,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 12650 9750 12650
 Wire Wire Line
-	9850 13550 9750 13550
+	10200 13550 9750 13550
 Wire Wire Line
 	10200 13450 9750 13450
 Wire Wire Line
@@ -2193,21 +1691,17 @@ Wire Wire Line
 Wire Wire Line
 	10200 13750 9750 13750
 Wire Wire Line
-	9850 13650 9750 13650
-NoConn ~ 9850 14050
+	10200 13650 9750 13650
 Wire Wire Line
-	9850 14050 9750 14050
+	10200 14050 9750 14050
 Wire Wire Line
 	10200 13950 9750 13950
-NoConn ~ 9850 14350
-NoConn ~ 9850 14450
-NoConn ~ 9850 14550
 Wire Wire Line
-	9850 14550 9750 14550
+	10200 14550 9750 14550
 Wire Wire Line
-	9850 14450 9750 14450
+	10200 14450 9750 14450
 Wire Wire Line
-	9850 14350 9750 14350
+	10200 14350 9750 14350
 $Comp
 L Connector:Conn_01x06_Female J15
 U 1 1 5E321F13
@@ -2282,28 +1776,22 @@ F 3 "~" H 16500 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10100 9550 9750 9550
-Text Label 10100 9550 2    50   ~ 0
+Text Label 10100 8750 2    50   ~ 0
 CYP_STEP3
-Text Label 10100 9650 2    50   ~ 0
+Text Label 10100 8850 2    50   ~ 0
 CYP_DIR3
-Text Label 10100 8150 2    50   ~ 0
-CYP_SCK
 Wire Wire Line
 	10050 5100 10500 5100
 Text Label 10050 5100 0    50   ~ 0
-CYP_SCK
+CYP_SCK2
 Text Label 10050 2550 0    50   ~ 0
-CYP_SCK
+CYP_SCK1
 Text Label 14950 2550 0    50   ~ 0
-CYP_SCK
+CYP_SCK3
 Text Label 14950 5100 0    50   ~ 0
-CYP_SCK
+CYP_SCK4
 Wire Wire Line
-	10100 8150 9750 8150
-Text Label 5900 2500 2    50   ~ 0
-10M_XTAL2
-Text Label 4750 4550 0    50   ~ 0
-10M_XTAL2
+	10200 8150 9750 8150
 Wire Wire Line
 	12250 12300 11950 12300
 Wire Wire Line
@@ -2548,17 +2036,6 @@ F 3 "~" H 11700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP10
-U 1 1 5ECA997F
-P 11700 2500
-F 0 "JP10" H 11650 2500 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 11700 2614 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 11700 2500 50  0001 C CNN
-F 3 "~" H 11700 2500 50  0001 C CNN
-	1    11700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP11
 U 1 1 5ECAA583
 P 11700 2650
@@ -2581,17 +2058,6 @@ F 3 "~" H 10650 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5ECAB0DC
-P 10650 2650
-F 0 "JP2" H 10600 2650 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 2764 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 2650 50  0001 C CNN
-F 3 "~" H 10650 2650 50  0001 C CNN
-	1    10650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP3
 U 1 1 5ECAC920
 P 10650 2750
@@ -2600,17 +2066,6 @@ F 1 "SolderJumper_2_Open" H 10650 2864 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 2750 50  0001 C CNN
 F 3 "~" H 10650 2750 50  0001 C CNN
 	1    10650 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5ECAC926
-P 10650 2850
-F 0 "JP4" H 10600 2850 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 2964 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 2850 50  0001 C CNN
-F 3 "~" H 10650 2850 50  0001 C CNN
-	1    10650 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2625,17 +2080,6 @@ F 3 "~" H 10650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 5ED32E71
-P 10650 3050
-F 0 "JP6" H 10600 3050 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 3164 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 3050 50  0001 C CNN
-F 3 "~" H 10650 3050 50  0001 C CNN
-	1    10650 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP7
 U 1 1 5EDB931A
 P 10650 3150
@@ -2644,17 +2088,6 @@ F 1 "SolderJumper_2_Open" H 10650 3264 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 3150 50  0001 C CNN
 F 3 "~" H 10650 3150 50  0001 C CNN
 	1    10650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP8
-U 1 1 5EDB9320
-P 10650 3250
-F 0 "JP8" H 10600 3250 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 3364 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 3250 50  0001 C CNN
-F 3 "~" H 10650 3250 50  0001 C CNN
-	1    10650 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2815,17 +2248,6 @@ F 3 "~" H 11700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP29
-U 1 1 5E739759
-P 11700 5050
-F 0 "JP29" H 11650 5050 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 11700 5164 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 11700 5050 50  0001 C CNN
-F 3 "~" H 11700 5050 50  0001 C CNN
-	1    11700 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP30
 U 1 1 5E739E46
 P 11700 5200
@@ -2848,17 +2270,6 @@ F 3 "~" H 10650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP21
-U 1 1 5E73AF9E
-P 10650 5200
-F 0 "JP21" H 10600 5200 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 5314 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5200 50  0001 C CNN
-F 3 "~" H 10650 5200 50  0001 C CNN
-	1    10650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP22
 U 1 1 5E73ED26
 P 10650 5300
@@ -2867,17 +2278,6 @@ F 1 "SolderJumper_2_Open" H 10650 5414 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5300 50  0001 C CNN
 F 3 "~" H 10650 5300 50  0001 C CNN
 	1    10650 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP23
-U 1 1 5E73ED2C
-P 10650 5400
-F 0 "JP23" H 10600 5400 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 5514 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5400 50  0001 C CNN
-F 3 "~" H 10650 5400 50  0001 C CNN
-	1    10650 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2892,17 +2292,6 @@ F 3 "~" H 10650 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP25
-U 1 1 5E7C6595
-P 10650 5600
-F 0 "JP25" H 10600 5600 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 5714 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5600 50  0001 C CNN
-F 3 "~" H 10650 5600 50  0001 C CNN
-	1    10650 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP26
 U 1 1 5E84DC8A
 P 10650 5700
@@ -2911,17 +2300,6 @@ F 1 "SolderJumper_2_Open" H 10650 5814 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5700 50  0001 C CNN
 F 3 "~" H 10650 5700 50  0001 C CNN
 	1    10650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP27
-U 1 1 5E84DC90
-P 10650 5800
-F 0 "JP27" H 10600 5800 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 10650 5914 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 10650 5800 50  0001 C CNN
-F 3 "~" H 10650 5800 50  0001 C CNN
-	1    10650 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3013,17 +2391,6 @@ F 3 "~" H 15550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP48
-U 1 1 5EB81FAE
-P 15550 5200
-F 0 "JP48" H 15500 5200 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 5314 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5200 50  0001 C CNN
-F 3 "~" H 15550 5200 50  0001 C CNN
-	1    15550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP49
 U 1 1 5EC091ED
 P 15550 5300
@@ -3032,17 +2399,6 @@ F 1 "SolderJumper_2_Open" H 15550 5414 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5300 50  0001 C CNN
 F 3 "~" H 15550 5300 50  0001 C CNN
 	1    15550 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP50
-U 1 1 5EC091F3
-P 15550 5400
-F 0 "JP50" H 15500 5400 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 5514 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5400 50  0001 C CNN
-F 3 "~" H 15550 5400 50  0001 C CNN
-	1    15550 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3057,17 +2413,6 @@ F 3 "~" H 15550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP52
-U 1 1 5EC904DC
-P 15550 5600
-F 0 "JP52" H 15500 5600 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 5714 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5600 50  0001 C CNN
-F 3 "~" H 15550 5600 50  0001 C CNN
-	1    15550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP53
 U 1 1 5ED174A3
 P 15550 5700
@@ -3076,17 +2421,6 @@ F 1 "SolderJumper_2_Open" H 15550 5814 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5700 50  0001 C CNN
 F 3 "~" H 15550 5700 50  0001 C CNN
 	1    15550 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP54
-U 1 1 5ED174A9
-P 15550 5800
-F 0 "JP54" H 15500 5800 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 5914 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 5800 50  0001 C CNN
-F 3 "~" H 15550 5800 50  0001 C CNN
-	1    15550 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3156,17 +2490,6 @@ F 3 "~" H 16600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP59
-U 1 1 5EEAD3B7
-P 16600 5050
-F 0 "JP59" H 16550 5050 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 16600 5164 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 16600 5050 50  0001 C CNN
-F 3 "~" H 16600 5050 50  0001 C CNN
-	1    16600 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP58
 U 1 1 5EEAD848
 P 16600 4900
@@ -3222,17 +2545,6 @@ F 3 "~" H 15550 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP40
-U 1 1 5F04EF6D
-P 15550 2650
-F 0 "JP40" H 15500 2650 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 2764 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 2650 50  0001 C CNN
-F 3 "~" H 15550 2650 50  0001 C CNN
-	1    15550 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP41
 U 1 1 5F0D5FEE
 P 15550 2750
@@ -3241,17 +2553,6 @@ F 1 "SolderJumper_2_Open" H 15550 2864 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 2750 50  0001 C CNN
 F 3 "~" H 15550 2750 50  0001 C CNN
 	1    15550 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP42
-U 1 1 5F0D5FF4
-P 15550 2850
-F 0 "JP42" H 15500 2850 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 2964 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 2850 50  0001 C CNN
-F 3 "~" H 15550 2850 50  0001 C CNN
-	1    15550 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3266,17 +2567,6 @@ F 3 "~" H 15550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP44
-U 1 1 5F15D0A7
-P 15550 3050
-F 0 "JP44" H 15500 3050 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 3164 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 3050 50  0001 C CNN
-F 3 "~" H 15550 3050 50  0001 C CNN
-	1    15550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP45
 U 1 1 5F1E4180
 P 15550 3150
@@ -3285,17 +2575,6 @@ F 1 "SolderJumper_2_Open" H 15550 3264 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 3150 50  0001 C CNN
 F 3 "~" H 15550 3150 50  0001 C CNN
 	1    15550 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP46
-U 1 1 5F1E4186
-P 15550 3250
-F 0 "JP46" H 15500 3250 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 15550 3364 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 15550 3250 50  0001 C CNN
-F 3 "~" H 15550 3250 50  0001 C CNN
-	1    15550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3398,17 +2677,6 @@ F 3 "~" H 16600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP56
-U 1 1 5F401BD0
-P 16600 2500
-F 0 "JP56" H 16550 2500 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 16600 2614 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 16600 2500 50  0001 C CNN
-F 3 "~" H 16600 2500 50  0001 C CNN
-	1    16600 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP57
 U 1 1 5F402149
 P 16600 2650
@@ -3455,17 +2723,6 @@ F 2 "CUSTOM_FP:small_triangle_jumper" H 5200 11300 50  0001 C CNN
 F 3 "~" H 5200 11300 50  0001 C CNN
 	1    5200 11300
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 5E2C3BEE
-P 3500 11000
-F 0 "J6" H 3550 11217 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 3550 11126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3500 11000 50  0001 C CNN
-F 3 "~" H 3500 11000 50  0001 C CNN
-	1    3500 11000
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J7
@@ -3532,12 +2789,6 @@ Wire Wire Line
 	15850 8600 15450 8600
 Wire Wire Line
 	15700 8200 15850 8200
-Text Label 13100 8350 0    50   ~ 0
-~ATM_ENA
-Wire Wire Line
-	13100 8350 13600 8350
-Wire Wire Line
-	13900 8350 14100 8350
 Text Label 13100 8500 0    50   ~ 0
 ~PAR_ENA
 Wire Wire Line
@@ -3567,74 +2818,34 @@ Wire Wire Line
 	14300 8100 14350 8100
 Wire Wire Line
 	13450 7950 13950 7950
-Text Label 12100 8700 0    50   ~ 0
-ATM_CS5
 Text Label 12100 8600 0    50   ~ 0
 CYP_CS5
-Text Label 12100 8500 0    50   ~ 0
-ATM_SCK
 Wire Wire Line
 	14350 8600 13050 8600
 Wire Wire Line
-	13050 8600 13050 8500
-Wire Wire Line
-	13050 8500 12850 8500
-Wire Wire Line
 	12850 8400 13050 8400
-Wire Wire Line
-	13050 8400 13050 8500
-Connection ~ 13050 8500
 Wire Wire Line
 	12100 8400 12550 8400
 Wire Wire Line
-	12550 8500 12100 8500
-Wire Wire Line
 	12100 8600 12550 8600
-Wire Wire Line
-	12100 8700 12550 8700
 Wire Wire Line
 	12850 8600 13000 8600
 Wire Wire Line
 	13000 8600 13000 8700
 Wire Wire Line
-	12850 8700 13000 8700
-Wire Wire Line
 	13000 8700 14350 8700
-Connection ~ 13000 8700
-Text Label 12100 8900 0    50   ~ 0
-ATM_MOSI
 Text Label 12100 8800 0    50   ~ 0
-CYP_MOSI
-Text Label 12100 9100 0    50   ~ 0
-ATM_MISO
+CYP_MOSI5
 Text Label 12100 9000 0    50   ~ 0
-CYP_MISO
+CYP_MISO5
 Wire Wire Line
 	12100 8800 12550 8800
 Wire Wire Line
-	12550 8900 12100 8900
-Wire Wire Line
 	12100 9000 12550 9000
-Wire Wire Line
-	12550 9100 12100 9100
-Wire Wire Line
-	12850 8800 13000 8800
-Wire Wire Line
-	12850 8900 13000 8900
-Wire Wire Line
-	13000 8900 13000 8800
-Connection ~ 13000 8800
-Wire Wire Line
-	13000 8800 14350 8800
-Wire Wire Line
-	12850 9100 13050 9100
-Wire Wire Line
-	13050 9100 13050 9000
 Wire Wire Line
 	13050 8900 14350 8900
 Wire Wire Line
 	12850 9000 13050 9000
-Connection ~ 13050 9000
 Wire Wire Line
 	13050 9000 13050 8900
 Text Label 13100 9100 0    50   ~ 0
@@ -3751,7 +2962,7 @@ F 3 "~" H 13650 9650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 12100 8400 0    50   ~ 0
-CYP_SCK
+CYP_SCK5
 Wire Wire Line
 	14200 8050 14200 8250
 Wire Wire Line
@@ -3806,17 +3017,6 @@ F 3 "~" H 12700 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP81
-U 1 1 5F24B6B5
-P 12700 8500
-F 0 "JP81" H 12650 8500 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 12700 8614 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 8500 50  0001 C CNN
-F 3 "~" H 12700 8500 50  0001 C CNN
-	1    12700 8500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP82
 U 1 1 5F24B6BC
 P 12700 8600
@@ -3825,17 +3025,6 @@ F 1 "SolderJumper_2_Open" H 12700 8714 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 8600 50  0001 C CNN
 F 3 "~" H 12700 8600 50  0001 C CNN
 	1    12700 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP83
-U 1 1 5F24B6C3
-P 12700 8700
-F 0 "JP83" H 12650 8700 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 12700 8814 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 8700 50  0001 C CNN
-F 3 "~" H 12700 8700 50  0001 C CNN
-	1    12700 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3850,17 +3039,6 @@ F 3 "~" H 12700 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP85
-U 1 1 5F24B6D1
-P 12700 8900
-F 0 "JP85" H 12650 8900 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 12700 9014 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 8900 50  0001 C CNN
-F 3 "~" H 12700 8900 50  0001 C CNN
-	1    12700 8900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP86
 U 1 1 5F24B6D8
 P 12700 9000
@@ -3869,17 +3047,6 @@ F 1 "SolderJumper_2_Open" H 12700 9114 50  0001 C CNN
 F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 9000 50  0001 C CNN
 F 3 "~" H 12700 9000 50  0001 C CNN
 	1    12700 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP87
-U 1 1 5F24B6DF
-P 12700 9100
-F 0 "JP87" H 12650 9100 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 12700 9214 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 12700 9100 50  0001 C CNN
-F 3 "~" H 12700 9100 50  0001 C CNN
-	1    12700 9100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3949,17 +3116,6 @@ F 3 "~" H 13750 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP89
-U 1 1 5F24B710
-P 13750 8350
-F 0 "JP89" H 13700 8350 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 13750 8464 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 13750 8350 50  0001 C CNN
-F 3 "~" H 13750 8350 50  0001 C CNN
-	1    13750 8350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP88
 U 1 1 5F24B717
 P 13750 8200
@@ -4018,54 +3174,18 @@ Text Label 2700 9050 2    50   ~ 0
 PAR_STEP5
 Text Label 2700 9150 2    50   ~ 0
 PAR_DIR5
-Text Label 4750 4950 0    50   ~ 0
-ATM_CS5
-Text Label 10100 7850 2    50   ~ 0
+Text Label 10100 10150 2    50   ~ 0
 CYP_CS5
-Text Label 10100 11050 2    50   ~ 0
+Text Label 10100 10950 2    50   ~ 0
 ~CYP_ENA_5
-Text Label 10100 11150 2    50   ~ 0
+Text Label 10100 10550 2    50   ~ 0
 CYP_STEP5
-Text Label 10100 11250 2    50   ~ 0
+Text Label 10100 10650 2    50   ~ 0
 CYP_DIR5
-Text Label 10100 11350 2    50   ~ 0
+Text Label 10100 10750 2    50   ~ 0
 DIAG_0_5
-Text Label 10100 11450 2    50   ~ 0
+Text Label 10100 10850 2    50   ~ 0
 DIAG_1_5
-$Comp
-L Jumper:SolderJumper_2_Open JP99
-U 1 1 5E251BF5
-P 3150 4450
-F 0 "JP99" H 3100 4450 50  0000 R BNN
-F 1 "SolderJumper_2_Open" H 3150 4564 50  0001 C CNN
-F 2 "CUSTOM_FP:small_triangle_jumper" H 3150 4450 50  0001 C CNN
-F 3 "~" H 3150 4450 50  0001 C CNN
-	1    3150 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4550 8150 4550
-Wire Wire Line
-	7450 4650 8150 4650
-Wire Wire Line
-	7450 4750 8150 4750
-Wire Wire Line
-	7450 4850 8150 4850
-Wire Wire Line
-	4750 4950 5250 4950
-$Comp
-L Device:C C7
-U 1 1 5E9BA424
-P 5500 3350
-F 0 "C7" H 5615 3396 50  0000 L CNN
-F 1 "18p" H 5615 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5538 3200 50  0001 C CNN
-F 3 "" H 5500 3350 50  0001 C CNN
-F 4 "C0603C180K5RACAUTO" H 5500 3350 50  0001 C CNN "MPN"
-F 5 "399-17581-1-ND" H 5500 3350 50  0001 C CNN "DPN"
-	1    5500 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5E9BC24C
@@ -4308,9 +3428,9 @@ Text Label 19100 9000 0    50   ~ 0
 PWR_SW_CH2
 Text Label 17200 9000 0    50   ~ 0
 PWR_SW_CH1
-Text Label 10200 8550 2    50   ~ 0
+Text Label 10200 8150 2    50   ~ 0
 PWR_SW_CH1
-Text Label 10200 8650 2    50   ~ 0
+Text Label 10200 8250 2    50   ~ 0
 PWR_SW_CH2
 $Comp
 L Device:R R1
@@ -4356,9 +3476,6 @@ F 6 "RMCF0603FT2R20,RMCF0603FT2R20CT-ND" H 19750 9000 50  0001 C CNN "ALTERNATE"
 $EndComp
 Wire Wire Line
 	19100 9000 19600 9000
-NoConn ~ 9850 13650
-NoConn ~ 9850 13550
-NoConn ~ 10100 7450
 Wire Wire Line
 	11050 12200 11050 11950
 Wire Wire Line
@@ -4413,6 +3530,99 @@ Wire Wire Line
 	10650 12700 10050 12700
 Wire Wire Line
 	10050 12700 10050 12650
-NoConn ~ 10200 13350
-NoConn ~ 10200 13450
+Text Label 10200 13450 2    50   ~ 0
+CYP_SCK1
+Text Label 10200 13550 2    50   ~ 0
+CYP_MOSI1
+Text Label 10200 13650 2    50   ~ 0
+CYP_MISO1
+Text Label 10200 14550 2    50   ~ 0
+CYP_SCK2
+Text Label 10100 7450 2    50   ~ 0
+CYP_MOSI2
+Text Label 10100 7550 2    50   ~ 0
+CYP_MISO2
+Text Label 10100 8450 2    50   ~ 0
+CYP_SCK3
+Text Label 10100 8550 2    50   ~ 0
+CYP_MOSI3
+Text Label 10100 8650 2    50   ~ 0
+CYP_MISO3
+Wire Wire Line
+	10100 10550 9750 10550
+Text Label 10100 9350 2    50   ~ 0
+CYP_SCK4
+Text Label 10100 9550 2    50   ~ 0
+CYP_MISO4
+Text Label 10100 9450 2    50   ~ 0
+CYP_MOSI4
+Text Label 10100 10250 2    50   ~ 0
+CYP_SCK5
+Text Label 10100 10350 2    50   ~ 0
+CYP_MOSI5
+Text Label 10100 10450 2    50   ~ 0
+CYP_MISO5
+NoConn ~ 10100 11050
+NoConn ~ 10100 11150
+NoConn ~ 10100 11250
+NoConn ~ 10100 11350
+NoConn ~ 10100 11450
+Wire Wire Line
+	11000 2550 11000 2750
+Wire Wire Line
+	10800 2950 12300 2950
+$Sheet
+S 12300 2150 1100 1700
+U 5E4B7A4F
+F0 "DRIVE_1" 50
+F1 "drive.sch" 50
+F2 "VM" I R 13400 2250 50 
+F3 "BMA1" O R 13400 2650 50 
+F4 "BMA2" O R 13400 2750 50 
+F5 "BMB1" O R 13400 2450 50 
+F6 "BMB2" O R 13400 2550 50 
+F7 "CLK16" I L 12300 2400 50 
+F8 "MISO" O L 12300 3050 50 
+F9 "MOSI" I L 12300 2950 50 
+F10 "SCK" I L 12300 2750 50 
+F11 "CS" I L 12300 2850 50 
+F12 "DIAG0" O R 13400 2950 50 
+F13 "DIAG1" O R 13400 3050 50 
+F14 "VCC_IO" I L 12300 2250 50 
+F15 "REFL_STEP" I L 12300 3250 50 
+F16 "REFR_DIR" I L 12300 3350 50 
+F17 "ENC_A" I L 12300 3650 50 
+F18 "ENC_B" I L 12300 3550 50 
+F19 "ENC_N" I L 12300 3750 50 
+F20 "~DRV_ENN" I L 12300 2500 50 
+$EndSheet
+Wire Wire Line
+	11000 5100 11000 5300
+Wire Wire Line
+	10800 5500 12300 5500
+Wire Wire Line
+	15900 2550 15900 2750
+Wire Wire Line
+	15700 2950 17200 2950
+Wire Wire Line
+	15900 5100 15900 5300
+Wire Wire Line
+	15700 5500 17200 5500
+Wire Wire Line
+	13050 8400 13050 8600
+Wire Wire Line
+	12850 8800 14350 8800
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F1DA2AE
+P 3700 11000
+F 0 "NT1" H 3700 11178 50  0000 C CNN
+F 1 "Net-Tie_2" H 3700 11087 50  0000 C CNN
+F 2 "" H 3700 11000 50  0001 C CNN
+F 3 "~" H 3700 11000 50  0001 C CNN
+	1    3700 11000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 11100 4300 11100
 $EndSCHEMATC
