@@ -199,8 +199,8 @@ F 5 "2057-DB25-SL-25-ND" H 1750 8050 50  0001 C CNN "DPN"
 	1    1750 8050
 	-1   0    0    1   
 $EndComp
-Text Notes 14000 14400 0    79   ~ 16
-Notes:\n3x SPI\n4x CS lines minimum\n4X DRV_ENN\n8x DIAG ports (consider using I2C I/O expander such as  TCA9554DBR. This has interrupt  capabilities. 2x for I2C, 1x for interrupt)\n4x STEP\n4x DIR\n\n22 total\n\n\nATMEGA 32u4\nhttps://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4RC-AU/ATMEGA32U4RC-AU-ND/2507982\n\nPSoC 4 may be a much better/cheaper alternative. https://www.youtube.com/watch?v=cHqENmk5RLE\nC++ on PSoC: https://blog.mbedded.ninja/programming/microcontrollers/psoc/using-cplusplus-with-psoc-creator/\nhttps://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C5468AXI-LP106/2015-CY8C5468AXI-LP106-ND/9809570\n\nUse ATTINY as the startup and go option, with a feature rich PSoC parallel processor\n\nBOM tool\nhttps://github.com/SchrodingersGat/KiBoM
+Text Notes 13750 12750 0    79   ~ 16
+C++ on PSoC: https://blog.mbedded.ninja/programming/microcontrollers/psoc/using-cplusplus-with-psoc-creator/\n\nBOM tool\nhttps://github.com/SchrodingersGat/KiBoM\n\nConsider freewheeling diode protection for motor pins like this:\nhttps://github.com/watterott/SilentStepStick/blob/master/hardware/StepStick-Protector_v20.pdf\nBut using THT diodes (due to lack of space, these can be soldered under the board OR inserted into the screw terminals):\nhttps://www.digikey.com/product-detail/en/smc-diode-solutions/SB5100TA/1655-1524-1-ND/6022969
 Text Label 11050 5200 0    50   ~ 0
 ~PAR_ENA
 Wire Wire Line
@@ -1487,17 +1487,13 @@ Wire Wire Line
 NoConn ~ 9100 15100
 Text Label 2950 11000 0    50   ~ 0
 VTARG
-Wire Wire Line
-	2950 11100 3300 11100
-Wire Wire Line
-	3800 11100 4300 11100
 Connection ~ 4300 11100
 Wire Wire Line
 	3800 11000 4300 11000
 Wire Wire Line
 	4300 11000 4300 11100
 Wire Wire Line
-	3300 11000 2950 11000
+	3600 11000 2950 11000
 Text Label 10200 13950 2    50   ~ 0
 ~CYP_ENA_1
 Text Label 10200 13350 2    50   ~ 0
@@ -2729,17 +2725,6 @@ F 3 "~" H 5200 11300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 5E2C3BEE
-P 3500 11000
-F 0 "J6" H 3550 11217 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 3550 11126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3500 11000 50  0001 C CNN
-F 3 "~" H 3500 11000 50  0001 C CNN
-	1    3500 11000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x05_Odd_Even J7
 U 1 1 5E80E5D5
 P 10850 12400
@@ -3627,4 +3612,17 @@ Wire Wire Line
 	13050 8400 13050 8600
 Wire Wire Line
 	12850 8800 14350 8800
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F1DA2AE
+P 3700 11000
+F 0 "NT1" H 3700 11178 50  0000 C CNN
+F 1 "Net-Tie_2" H 3700 11087 50  0000 C CNN
+F 2 "" H 3700 11000 50  0001 C CNN
+F 3 "~" H 3700 11000 50  0001 C CNN
+	1    3700 11000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 11100 4300 11100
 $EndSCHEMATC
